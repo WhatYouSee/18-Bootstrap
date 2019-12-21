@@ -31,9 +31,16 @@ h1 {
 }
 .button-shadow {
     background-color: #333333;
-    border: #cccccc;
+    border: #333333;
     box-shadow: 0.25rem 0.25rem #cccccc;
 }
+.button-shadow:hover {
+    color: #333333;
+    background-color: #dddddd;
+    border-color: #333333;
+
+}
+
 
 /* Navbar CSS */
 
