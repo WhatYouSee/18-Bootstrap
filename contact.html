@@ -18,47 +18,40 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="work.html">Work <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="work.html">Work</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- form -->
   <form>
+    <div class="container">
+      <h1>Contact</h1>
     <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <label for="formGroupExampleInput formName">Name</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="*Name">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlSelect1">Example select</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
+      <label for="exampleFormControlInput1 formEmail">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="*name@example.com">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlSelect2">Example multiple select</label>
-      <select multiple class="form-control" id="exampleFormControlSelect2">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
+      <label for="formGroupExampleInput formSubject">Subject</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
     </div>
+    
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">Example textarea</label>
+      <label for="exampleFormControlTextarea1 formMessage">Message</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
+    <a class="btn btn-primary btn-lg button-shadow" href="" role="button">Send</a>
+  </div>
   </form>
 <!-- footer html -->
 <footer>

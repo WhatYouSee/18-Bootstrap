@@ -16,12 +16,13 @@ h1 {
 
 .link {
     font-style: italic;
-    color: #0077ED !important;
+    color: #000000 !important;
     font-size: 18px;
     margin-top: 15px;
     display: block;
     cursor: pointer;
-    width: 110px;
+    width: 200px;
+    text-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.25);
 }
 
 .display-4 {
@@ -38,9 +39,12 @@ h1 {
     color: #333333;
     background-color: #dddddd;
     border-color: #333333;
-
 }
-
+.linkStyle {
+    font-weight: bold;
+    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+    color: black;
+}
 
 /* Navbar CSS */
 
@@ -192,4 +196,16 @@ blockquote p {
 .quotePerson {
     font-weight: bold;
     text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+}
+
+/* grid container */
+
+.container {
+    padding: 5rem;
+}
+.card-pad {
+    padding-left:2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
 }
