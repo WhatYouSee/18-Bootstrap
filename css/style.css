@@ -145,7 +145,7 @@ nav a {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/letterbg.png);
+    background-image: url(../images/cgcontactbg.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,4 +182,7 @@ blockquote p {
     color: white;
 }
 
-.quotePerson {}
+.quotePerson {
+    font-weight: bold;
+    text-shadow: 0.15rem 0.15rem rgba(255, 255, 255, 0.25);
+}
